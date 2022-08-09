@@ -27,7 +27,7 @@ Modules that are used by the controller/model, adding new features to them. They
 ### lib
 All modules that are not related to any controller/model/view, here they are loaded. Treat non-ActiveRecord classes as first class citizens. Store code that is not domain specific.
 
-## config/
+## config
 All configuration / custom configuration / environment configuration. Credentials, etc. The most important file here is the **routes** file.
 
 ## db
