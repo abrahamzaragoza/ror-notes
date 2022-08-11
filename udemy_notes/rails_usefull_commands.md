@@ -1,6 +1,7 @@
 Create new rails project
 ```
-rails new <project_name>
+rails _version_ new <project_name>
+rails _6.1.6.1_ new blog
 ```
 
 Run rails project
@@ -35,4 +36,9 @@ rails g <what>
 rails g controller <controller_name>
 
 rails g scaffold <scaffold_name> <column_name>:<data_type>
+```
+
+Add linux to lock file platforms
+```
+bundle lock --add-platform x86_64-linux
 ```
