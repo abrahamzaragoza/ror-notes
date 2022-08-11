@@ -20,4 +20,3 @@ Ruby code is translated into SQL querys, all this using the Models.
 * Read (GET)
 * Update (PATCH, PUT)
 * Delete (DELETE)
-
