@@ -15,3 +15,16 @@ simple_format(<variable>)
 > Line 2
 > Line 3
 ```
+
+**Is New Record?**
+lets you know if the object is a new record. Usefull in reusable partials.
+```
+# If it is a new record, it will show 'Sign up' in the button
+# If not new, it will display 'Update' int he button
+<%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: "btn btn-outline-light btn-lg") %>
+```
+**Pluralize**
+Attempts to pluralize the singular word unless count is 1
+```
+pluralize(user.articles.count, "article")
+```
