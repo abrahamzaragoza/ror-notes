@@ -28,3 +28,10 @@ Attempts to pluralize the singular word unless count is 1
 ```
 pluralize(user.articles.count, "article")
 ```
+
+**Render Iterative**
+```
+# this will render all categories from the article
+# but expects a _category partial to be able to render each category
+<%= render @article.categories %>
+```

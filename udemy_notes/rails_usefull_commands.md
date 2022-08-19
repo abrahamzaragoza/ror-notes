@@ -36,6 +36,8 @@ rails g <what>
 rails g controller <controller_name>
 
 rails g scaffold <scaffold_name> <column_name>:<data_type>
+
+rails g test_unit:scaffold <model>
 ```
 
 Add linux to lock file platforms

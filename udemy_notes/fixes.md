@@ -5,3 +5,13 @@ yarn add @rails/webpacker
 
 bundle update webpacker
 ```
+
+### Rails test - error
+**This happens in rails v6.1 and Ruby 3.0**
+The error is because the gem 'rexml' which was included by default in Ruby 2.6 and 2.7 is not included in Ruby 3.0
+```
+# add rexml to Gemfile
+gem 'rexml', require: false
+# run
+bundle install
+```
