@@ -11,3 +11,5 @@
 * [Ruby Literals](https://ruby-doc.org/core-3.1.2/doc/syntax/literals_rdoc.html)
 * [Symbols](https://ruby-doc.org/core-3.0.0/Symbol.html)
 * [Hashes](https://ruby-doc.org/core-3.0.0/Hash.html)
+* [Enumerable](https://ruby-doc.org/core-3.1.2/Enumerable.html#method-i-chunk)
+* [Recursion](https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/)
