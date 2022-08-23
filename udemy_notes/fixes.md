@@ -15,3 +15,9 @@ gem 'rexml', require: false
 # run
 bundle install
 ```
+
+### Error running '__rvm_make -j10'
+Error while installing old versions of Ruby on M1, Big Sur+
+```
+CFLAGS="-Wno-error=implicit-function-declaration" rvm install 2.5
+```
