@@ -11,9 +11,8 @@ variable_modification()
 #  valor y en lambda
 def self_context
   x = 10
-  modifier = -> { x = 2 }
+  modifier = -> { return 2 }
   modifier.call
-  p x
 end
 
 self_context()
@@ -22,13 +21,30 @@ self_context()
 
 module Example
   class ModuleClass
+    def initialize
+      p "Hi"
+    end
+  end
+
+  def module_method
+    ModuleClass.new
   end
 end
+
+
 
 # clase -> metodo protegido -> llamarlo en metodo publico (public instance methods)
 
 class Anything
+  def public_method
+    protected_method
+  end
+
   protected
+
   def protected_method
+    puts "You can't call me from outside."
   end
 end
+
+Anything.public_instance_methods[0]
