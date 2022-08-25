@@ -2,5 +2,5 @@
 
 require_relative 'location'
 
-Somewhere = Location.new('mx', 97_400)
-Somewhere.wind_info
+somewhere = Location.new('mx', 97_400)
+somewhere.wind_info
