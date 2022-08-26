@@ -14,3 +14,5 @@
 * [Enumerable](https://ruby-doc.org/core-3.1.2/Enumerable.html#method-i-chunk)
 * [Recursion](https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/)
 * [Bundler](https://bundler.io/guides/gemfile.html)
+* [Rescue Exceptions](https://stackify.com/rescue-exceptions-ruby/)
+* [Advanced Rescue and Raise](https://www.exceptionalcreatures.com/guides/advanced-rescue-and-raise.html)
