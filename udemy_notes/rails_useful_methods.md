@@ -35,3 +35,9 @@ pluralize(user.articles.count, "article")
 # but expects a _category partial to be able to render each category
 <%= render @article.categories %>
 ```
+
+**HTML Safe**
+Marks a string as trusted safe. It will be inserted into HTML with no additional escaping performed.
+```
+<%= f.button '<i class="bordered inverted orange edit icon"></i>'.html_safe %>
+```
