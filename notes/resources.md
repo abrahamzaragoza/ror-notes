@@ -16,3 +16,6 @@
 * [Bundler](https://bundler.io/guides/gemfile.html)
 * [Rescue Exceptions](https://stackify.com/rescue-exceptions-ruby/)
 * [Advanced Rescue and Raise](https://www.exceptionalcreatures.com/guides/advanced-rescue-and-raise.html)
+* [Code Loaders](https://www.honeybadger.io/blog/ruby-code-loader-zeitwerk/)
+* [Rails 6 features](https://www.toptal.com/ruby-on-rails/rails-6-features)
+* [Postgres database.yml](https://gist.github.com/jwo/4512764#file-postgres-database-yml)
