@@ -19,3 +19,4 @@
 * [Code Loaders](https://www.honeybadger.io/blog/ruby-code-loader-zeitwerk/)
 * [Rails 6 features](https://www.toptal.com/ruby-on-rails/rails-6-features)
 * [Postgres database.yml](https://gist.github.com/jwo/4512764#file-postgres-database-yml)
+* [Git Commit GP](https://gist.github.com/luismts/495d982e8c5b1a0ced4a57cf3d93cf60)
