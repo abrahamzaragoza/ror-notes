@@ -21,3 +21,8 @@
 * [Postgres database.yml](https://gist.github.com/jwo/4512764#file-postgres-database-yml)
 * [Git Commit GP](https://gist.github.com/luismts/495d982e8c5b1a0ced4a57cf3d93cf60)
 * [Association Basics](https://guides.rubyonrails.org/association_basics.html)
+* [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+* [Rails Migrations](https://www.gapintelligence.com/blog/up-and-down-a-rails-migration/)
+* [Migration Change vs Up&Down](https://medium.com/@kevinkarma55/rails-active-record-migration-change-method-vs-up-down-method-eaba011de3e9)
+* [Ralation](https://api.rubyonrails.org/v6.1.0/classes/ActiveRecord/Relation.html)
+* [Presenters](https://oozou.com/blog/abstracting-ruby-on-rails-view-logic-with-presenters-51)
