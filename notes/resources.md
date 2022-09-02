@@ -26,3 +26,4 @@
 * [Migration Change vs Up&Down](https://medium.com/@kevinkarma55/rails-active-record-migration-change-method-vs-up-down-method-eaba011de3e9)
 * [Ralation](https://api.rubyonrails.org/v6.1.0/classes/ActiveRecord/Relation.html)
 * [Presenters](https://oozou.com/blog/abstracting-ruby-on-rails-view-logic-with-presenters-51)
+* [ActiveReacord Validations](https://guides.rubyonrails.org/active_record_validations.html)
