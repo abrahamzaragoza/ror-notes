@@ -27,3 +27,4 @@
 * [Ralation](https://api.rubyonrails.org/v6.1.0/classes/ActiveRecord/Relation.html)
 * [Presenters](https://oozou.com/blog/abstracting-ruby-on-rails-view-logic-with-presenters-51)
 * [ActiveReacord Validations](https://guides.rubyonrails.org/active_record_validations.html)
+* [Callbacks Cheat Sheet](https://juliannaseiki.medium.com/rails-callbacks-cheat-sheet-824295a1a14d)
