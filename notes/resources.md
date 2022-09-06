@@ -28,3 +28,4 @@
 * [Presenters](https://oozou.com/blog/abstracting-ruby-on-rails-view-logic-with-presenters-51)
 * [ActiveReacord Validations](https://guides.rubyonrails.org/active_record_validations.html)
 * [Callbacks Cheat Sheet](https://juliannaseiki.medium.com/rails-callbacks-cheat-sheet-824295a1a14d)
+* [after_save vs after_commit](https://stackoverflow.com/questions/33890458/difference-between-after-create-after-save-and-after-commit-in-rails-callbacks)
