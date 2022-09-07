@@ -45,3 +45,34 @@ Importing bootstrap to customise styles
   background-color: #FDF6EA !important;
 }
 ```
+
+### Rails 6
+Install bootstrap, jQuery & PopperJs
+
+```
+gem 'bootstrap'
+```
+
+```
+yarn add bootstrap jquery @popperjs/core
+```
+
+Add boostrap to project
+> application.html.erb
+
+```
+    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+```
+
+> application.js
+
+```
+import "bootstrap"
+import "stylesheets/application"
+```
+
+> javascript/stylesheets/application.scss
+
+```
+@import "bootstrap";
+```
