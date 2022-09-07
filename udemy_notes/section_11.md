@@ -204,3 +204,15 @@ This code only shows the plan form control.
 <% end %>
 ```
 
+## Confirmation
+
+Create a Custom Confirmations Controller:
+> confirmations_controller.rb
+
+```
+class ConfirmationsController < Milia::ConfirmationsController
+
+end
+```
+
+update routes with custom controller.
