@@ -215,4 +215,41 @@ class ConfirmationsController < Milia::ConfirmationsController
 end
 ```
 
-update routes with custom controller.
+Update routes with custom controller.
+
+Create a show view for confirmation:
+> views/devise/show.html.erb
+Here the user can create a password:
+
+```
+<%= form_for(resource, :as => resource_name, :url => update_user_confirmation_path,
+    :html => { :method => :put, :class => "form login" }) do |f| %>
+  <%= hidden_field_tag :confirmation_token, @confirmation_token %>
+  <%= f.password_field :password, :class => "form-control" %>
+  <%= f.password_field :password_confirmation, :class => "form-control" %>
+<% end %>
+```
+
+### Invitation functionality
+The admin user can invite new members to the organization, using the emails and personal information of the new user. They will receive an email in ordear to create a password for their user.
+
+### Projects for Tenants
+Creating a Project table, this will belong to a Tenant.
+Projects must be assigned to a Tenant (manager).
+> set_tenant
+
+Only assigned Tenant can access each Project.
+> verify_tenant
+
+### Create Artifacts
+Artifacts belong to a Project.
+
+```
+rails g scaffold Artifact name:string key:string project:belongs_to
+```
+
+Add attr_accessor in order to be able to upload files.
+
+```
+attr_accessor :upload
+```
