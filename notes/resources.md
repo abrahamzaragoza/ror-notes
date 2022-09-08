@@ -29,3 +29,5 @@
 * [ActiveReacord Validations](https://guides.rubyonrails.org/active_record_validations.html)
 * [Callbacks Cheat Sheet](https://juliannaseiki.medium.com/rails-callbacks-cheat-sheet-824295a1a14d)
 * [after_save vs after_commit](https://stackoverflow.com/questions/33890458/difference-between-after-create-after-save-and-after-commit-in-rails-callbacks)
+* [ActiveModel](https://api.rubyonrails.org/classes/ActiveModel/API.html)
+* [ActiveResource](https://api.rubyonrails.org/v3.2.6/classes/ActiveResource/Base.html)
