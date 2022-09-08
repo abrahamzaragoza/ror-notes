@@ -5,12 +5,14 @@ The material_icons gem is optional, unless you want access to all the icons. You
 ```
 gem 'materialize-sass', '~> 1.0.0'
 gem 'material_icons'
+gem 'jquery-rails'
 ```
 
 ## Importing materialize
 > application.js
 
 ```
+//= require jquery
 //= require materialize
 ```
 
@@ -26,3 +28,12 @@ gem 'material_icons'
 *= require material_icons
 ```
 
+## Enabling dropdown menu
+> application.js
+
+```
+$(document).on('turbolinks:load', function(){
+  $('.dropdown-trigger').dropdown({
+  });
+});
+```
