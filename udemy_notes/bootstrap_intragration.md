@@ -76,3 +76,4 @@ import "stylesheets/application"
 ```
 @import "bootstrap";
 ```
+**Note** this can be done in assets/stylesheets/custom.css.scss
