@@ -253,3 +253,56 @@ Add attr_accessor in order to be able to upload files.
 ```
 attr_accessor :upload
 ```
+
+### Adding Stripe Payment
+
+```
+gem 'stripe'
+
+```
+
+Create a stripe.rb at initializer, in order to store Stripe's credentials.
+
+Create a Payment.rb at models, it must have attr_accessor for card number, cvv, and expire date. Also two methods for date picking.
+
+Create a payment method
+
+```
+def process_payment
+  customer = Stripe::Customer.create email: email, card: token
+  Stripe::Charge.create customer: customer.id,
+  amount: 1000,
+  description: 'Premium',
+  currency: 'usd'
+end
+```
+
+The tenant model must be updated, adding the payment relationship.
+
+### Custom Registration Controller
+In this section we're updating Milia's registration controller in order to have our payment logic.
+
+### Update User - Admin
+Update the User with a migration, adding is_admin attribute.
+
+Add a method, is admin?
+
+### User -> Projecct
+Create a User-Project association.
+
+```
+rails g scaffold UserProject project:belongs_to user:belongs_to
+rake db:migrate
+```
+
+Update User model, having many user_projects & projects.
+
+Update the Project model, having many user_projects & users.
+
+Create a new method in Project, in order to to add users to each project.
+
+```
+@project.users << current_user
+```
+### Complete User
+Update views.
