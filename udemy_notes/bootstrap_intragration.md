@@ -71,9 +71,8 @@ import "bootstrap"
 import "stylesheets/application"
 ```
 
-> javascript/stylesheets/application.scss
+> assets/stylesheets/custom.css.scss
 
 ```
 @import "bootstrap";
 ```
-**Note** this can be done in assets/stylesheets/custom.css.scss
