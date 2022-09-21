@@ -31,3 +31,6 @@
 * [after_save vs after_commit](https://stackoverflow.com/questions/33890458/difference-between-after-create-after-save-and-after-commit-in-rails-callbacks)
 * [ActiveModel](https://api.rubyonrails.org/classes/ActiveModel/API.html)
 * [ActiveResource](https://api.rubyonrails.org/v3.2.6/classes/ActiveResource/Base.html)
+* [Refactoring Guru](https://refactoring.guru/)
+* [Presenters](https://www.rubyguides.com/2019/09/rails-patterns-presenter-service/)
+* [Presenters](https://oozou.com/blog/abstracting-ruby-on-rails-view-logic-with-presenters-51)
