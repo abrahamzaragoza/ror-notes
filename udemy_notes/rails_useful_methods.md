@@ -41,3 +41,8 @@ Marks a string as trusted safe. It will be inserted into HTML with no additional
 ```
 <%= f.button '<i class="bordered inverted orange edit icon"></i>'.html_safe %>
 ```
+
+**Reset Postgres PK**
+```
+ActiveRecord::Base.connection.reset_pk_sequence!('table_name')
+```

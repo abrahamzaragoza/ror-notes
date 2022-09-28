@@ -18,3 +18,6 @@
 * [Builder](https://medium.com/kkempin/builder-design-pattern-in-ruby-dfa2d557ff1b)
 * [Decorator and Forwardable](https://blog.appsignal.com/2019/04/30/ruby-magic-hidden-gems-delegator-forwardable.html)
 * [Observers](https://diatomenterprises.com/observer-pattern-in-3-languages-ruby-c-and-elixir/ )
+* [Action Text](https://edgeguides.rubyonrails.org/action_text_overview.html)
+* [Rails helpers](https://www.rubyguides.com/2020/01/rails-helpers/)
+* [Rails Enum](https://naturaily.com/blog/ruby-on-rails-enum)
