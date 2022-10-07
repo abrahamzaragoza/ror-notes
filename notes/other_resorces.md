@@ -21,3 +21,7 @@
 * [Action Text](https://edgeguides.rubyonrails.org/action_text_overview.html)
 * [Rails helpers](https://www.rubyguides.com/2020/01/rails-helpers/)
 * [Rails Enum](https://naturaily.com/blog/ruby-on-rails-enum)
+* [Changed Attributes Rails](https://jasoncharnes.com/changed-attributes-rails/)
+* [Dirty](https://api.rubyonrails.org/classes/ActiveModel/Dirty.html)
+* [Rescuable & Rescue From](https://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-rescuable-and-rescue_from/)
+* [Stripe](https://stripe.com/docs/api)
