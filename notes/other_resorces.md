@@ -25,3 +25,6 @@
 * [Dirty](https://api.rubyonrails.org/classes/ActiveModel/Dirty.html)
 * [Rescuable & Rescue From](https://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-rescuable-and-rescue_from/)
 * [Stripe](https://stripe.com/docs/api)
+* [Bitwise](https://www.tutorialspoint.com/ruby/ruby_operators.htm)
+* [Binary Substraction | only the first part, ignore examples](https://byjus.com/maths/binary-subtraction/#using-one-complement)
+* [Binary Substraction in C](https://www.scaler.com/topics/binary-subtraction/)
