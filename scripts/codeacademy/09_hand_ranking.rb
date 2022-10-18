@@ -120,7 +120,13 @@ class Poker
   end
 
   def high_card
-    p "You high card is #{@cards.max}"
+    card = if @numbers.any?('a')
+             @cards.find { |c| c.match(/a[hcds]/) }
+           else
+             @cards.max
+           end
+
+    p "You high card is #{card}"
   end
 end
 
